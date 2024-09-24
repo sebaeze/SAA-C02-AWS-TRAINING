@@ -25,7 +25,13 @@ Track and record every API call to AWS accounts, such as: SDK call, rest api, an
 ### Cloudtrail Log file integrity
 Guarantee that the log trail was not changed or modified by implementing a hash in every log file delivered by Cloudtrail.
 
+### Trusted advisor
+Inspect AWS infrastructure for evaluating several parameters. 
+Cost advisor flag check EC2 utilization and I/O processing in EBS volumen in order to report low utilization.
+It create events that can be catched using Cloudwatch event.
+
 ## EC2
+
 
 ### User Data
 Script to be execute during EC2 creation.
